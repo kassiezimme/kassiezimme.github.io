@@ -12,3 +12,10 @@
       -webkit-transform: translateY(-100%);
       transform: translateY(-100%);
       z-index: -1; } }
+
+.navbar-nav,{
+flex: 1;
+margin: auto !important;
+display: flex;
+justify-content: space-between;
+}
