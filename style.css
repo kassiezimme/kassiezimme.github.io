@@ -45,6 +45,17 @@ footer {
   background-color: black;
   color: white;
   padding: 150px 100px;
+  margin: 0px 0px 50px;
+}
+
+.footer-logo {
+  padding: 0px 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer-text {
+  padding: 0px 50px;
 }
 
 .med-section-titles {
@@ -55,4 +66,9 @@ footer {
   margin: 50px 10px;
   display: flex;
   justify-content: center;
+}
+
+.page-body {
+  margin: 100px 50px;
+  min-height: 500px;
 }
