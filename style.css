@@ -13,9 +13,30 @@
       transform: translateY(-100%);
       z-index: -1; } }
 
-.navbar-nav,{
-flex: 1;
-margin: auto !important;
-display: flex;
-justify-content: space-between;
+.menu-bar {
+  padding: 0px;
+}
+
+.navbar-nav {
+  margin: 10px 30px 10px auto !important;
+  justify-content: right;
+}
+
+.nav-item {
+  margin: 20px;
+}
+
+.navbar-brand {
+  margin: 0px 0px 0px 0px !important;
+}
+
+body {
+  width: 90%;
+  margin: auto;
+}
+
+.menu-search-bar {
+  width: 200px;
+  border-radius: 50px;
+  margin: 0px 0px 0px 0px !important;
 }
