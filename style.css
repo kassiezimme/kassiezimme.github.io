@@ -50,3 +50,9 @@ footer {
 .med-section-titles {
   margin-bottom: 20px;
 }
+
+.copyright-line {
+  margin: 50px 10px;
+  display: flex;
+  justify-content: center;
+}
