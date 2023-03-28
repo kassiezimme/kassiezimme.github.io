@@ -40,3 +40,13 @@ body {
   border-radius: 50px;
   margin: 0px 0px 0px 0px !important;
 }
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 150px 100px;
+}
+
+.med-section-titles {
+  margin-bottom: 20px;
+}
