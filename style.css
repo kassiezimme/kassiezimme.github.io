@@ -47,24 +47,25 @@ body {
 }
 
 footer {
-  background-color: black;
+  background-color: #181819;
   color: white;
   padding: 150px 100px;
   margin-bottom: 3rem;
 }
 
-.footer-logo {
-  padding: 0px 50px;
-  display: flex;
-  justify-content: flex-end;
+.footer-left,
+.footer-right,
+.footer-text {
+  padding: 20px;
 }
 
-.footer-text {
-  padding: 0px 50px;
+.centered {
+  margin: 0px auto;
 }
 
 .med-section-titles {
   margin-bottom: 20px;
+  display: block !important;
 }
 
 .copyright-line {
@@ -76,4 +77,31 @@ footer {
 .page-body {
   margin: 100px 50px;
   min-height: 500px;
+}
+
+.btn-primary {
+  background-color: #6D5649;
+  border-color: #6D5649;
+  padding: 1rem 2rem;
+  margin: 0px;
+  font-size: .85rem;
+}
+
+.btn-primary:hover {
+  color: #6D5649;
+  background-color: white;
+  border-color: white;
+  padding: 1rem 2rem;
+  margin: 0px;
+  font-size: .85rem;
+}
+
+a {
+  color: #6D5649;
+  padding: 0rem .25rem;
+}
+
+a:hover {
+  color: #9C9183;
+  padding: 0rem .25rem;
 }
